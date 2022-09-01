@@ -10,7 +10,7 @@ document.addEventListener("click", (event) => {
 });
 
 function jogar(){
-    const jogo = document.getElementById(id);
+    const celula = document.getElementById(id);
     turno = checarTurno ? jogador_x : jogador_o;
-    jogo.textContent = turno;
+    celula.textContent = turno;
 };
